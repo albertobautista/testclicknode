@@ -1,10 +1,11 @@
 const mysql = require('mysql')
 
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'curso_node'
+    host: 'actvanzarecom.ipagemysql.com',
+    user: 'alberto_bautista',
+    password: 'a0712930',
+    database: 'club_valle_real_website'
+});
 });
 
 let userModel = {};
