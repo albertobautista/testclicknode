@@ -6,7 +6,7 @@ const connection = mysql.createConnection({
     password: 'a0712930',
     database: 'club_valle_real_website'
 });
-});
+
 
 let userModel = {};
 
